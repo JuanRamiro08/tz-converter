@@ -1,0 +1,104 @@
+/* Time Converter card in the date menu. The card itself borrows
+   .world-clocks-button from the Shell theme; this only styles the insides. */
+
+.tzc-section {
+  spacing: 6px;
+}
+
+.tzc-btn {
+  padding: 2px 8px;
+  margin-left: 4px;
+  border-radius: 99px;
+  font-size: 0.85em;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+.tzc-btn:hover { background-color: rgba(255, 255, 255, 0.16); }
+.tzc-btn:checked { background-color: -st-accent-color; color: -st-accent-fg-color; }
+
+.tzc-icon-btn {
+  padding: 3px;
+  border-radius: 99px;
+}
+.tzc-icon-btn:hover { background-color: rgba(255, 255, 255, 0.12); }
+
+.tzc-date-row { spacing: 2px; }
+
+.tzc-date,
+.tzc-time,
+.tzc-search {
+  min-height: 28px;
+  padding: 0 8px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: rgba(255, 255, 255, 0.06);
+  box-shadow: none;
+}
+.tzc-date:focus,
+.tzc-time:focus,
+.tzc-search:focus {
+  border-color: -st-accent-color;
+}
+.tzc-date { font-weight: bold; }
+
+.tzc-time {
+  width: 66px;
+  font-weight: bold;
+  font-feature-settings: "tnum";
+}
+
+.tzc-error,
+.tzc-error:focus {
+  border-color: #e06c75;
+  background-color: rgba(224, 108, 117, 0.18);
+}
+
+.tzc-rows { spacing: 2px; }
+
+.tzc-row {
+  spacing: 8px;
+  padding: 3px 2px;
+  border-radius: 8px;
+}
+.tzc-row:hover { background-color: rgba(255, 255, 255, 0.04); }
+
+.tzc-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.tzc-city { font-weight: bold; }
+.tzc-sub { font-size: 0.8em; color: rgba(255, 255, 255, 0.55); }
+
+.tzc-dayname { font-size: 0.75em; color: rgba(255, 255, 255, 0.55); padding-right: 6px; }
+.tzc-ahead { color: #61afef; }
+.tzc-behind { color: #c678dd; }
+
+.tzc-tools { spacing: 0; }
+
+.tzc-strip {
+  height: 6px;
+  spacing: 1px;
+  margin: 4px 10px 0 10px;
+}
+.tzc-cell { height: 6px; border-radius: 2px; }
+
+.tzc-work  { background-color: #98c379; }
+.tzc-awake { background-color: #e5c07b; }
+.tzc-night { background-color: #e06c75; }
+
+.tzc-legend,
+.tzc-hint {
+  font-size: 0.75em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.tzc-results { spacing: 1px; }
+.tzc-result {
+  padding: 3px 6px;
+  border-radius: 8px;
+}
+.tzc-result:hover,
+.tzc-result:focus { background-color: rgba(255, 255, 255, 0.1); }
+.tzc-result-time { font-feature-settings: "tnum"; }

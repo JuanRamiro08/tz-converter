@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.tz-converter"
+          path="/org/gnome/shell/extensions/tz-converter/">
+    <key name="cities" type="as">
+      <default>[]</default>
+      <summary>Cities, reference city first</summary>
+      <description>Each entry is an IANA zone, optionally followed by "|Label" (e.g. "America/Mexico_City|Guadalajara"). Empty means: seed from this machine's zone plus GNOME World Clocks on first load.</description>
+    </key>
+    <key name="hour12" type="b">
+      <default>false</default>
+      <summary>Show times as 5:00 pm instead of 17:00</summary>
+    </key>
+  </schema>
+</schemalist>

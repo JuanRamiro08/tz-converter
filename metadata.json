@@ -1,0 +1,14 @@
+{
+  "uuid": "tz-converter@juanramiro08.github.io",
+  "name": "Time Converter",
+  "description": "A time zone converter inside the date menu, under World Clocks. Pick a day on the calendar, type a time in any city, and every other city follows. Shows which hours are office hours in every city. Offline: uses the system tzdata.",
+  "version": 1,
+  "version-name": "0.1.0",
+  "shell-version": [
+    "48",
+    "49",
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.tz-converter",
+  "url": "https://github.com/JuanRamiro08/tz-converter"
+}
