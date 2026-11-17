@@ -50,6 +50,12 @@ The card is added to the date menu by reaching into its private fields
 the card (it logs an error instead of crashing); `metadata.json` lists the
 versions it has been checked against.
 
+## Tip
+
+If this saves you a trip to a converter website, tips are welcome:
+
+**ETH:** `0xB1943E8E8E9CabB046e6F10fB38191F0E83B7532`
+
 ## License
 
 GPL-2.0-or-later. See [LICENSE](LICENSE).
